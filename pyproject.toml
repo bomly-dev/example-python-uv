@@ -1,0 +1,21 @@
+[project]
+name = "example-python-uv"
+version = "1.0.0"
+description = "UV project with a mix of safe, vulnerable, runtime, and dev dependencies for bomly QA"
+requires-python = ">=3.12"
+dependencies = [
+    "django==1.11.29",
+    "pyjwt==0.4.2",
+    "requests==2.21.0",
+    "rsa==3.4",
+    "feedparser==6.0.8",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
