@@ -12,7 +12,9 @@ dependencies = [
 ]
 
 [tool.uv]
-dev-dependencies = [
+
+[dependency-groups]
+dev = [
     "pytest>=7.4",
 ]
 
