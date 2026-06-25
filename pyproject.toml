@@ -9,6 +9,7 @@ dependencies = [
     "requests==2.21.0",
     "rsa==3.4",
     "feedparser==6.0.8",
+    "jinja2==2.10",
 ]
 
 [tool.uv]
